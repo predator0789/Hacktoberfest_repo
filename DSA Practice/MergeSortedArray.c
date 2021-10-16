@@ -4,7 +4,7 @@ int main(){
     printf("Enter the length of First Sorted Array:-\n");
     scanf("%d",&n1);
     int sort1[n1];
-    printf("Enter the First array elements in incresing order:-\n");
+    printf("Enter elements of first array in incresing order:-\n");
     for(i=0;i<n1;i++){
         scanf("%d",&sort1[i]);
     }
