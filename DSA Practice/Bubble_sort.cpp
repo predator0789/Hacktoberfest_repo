@@ -5,7 +5,7 @@ int main(){
     cout<<"Enter your array length:-\n";
     cin>>n;
     int arr[n];
-    cout<<"Give input for elements:-\n";
+    cout<<"Enter the array elements:-\n";
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
@@ -26,7 +26,7 @@ int main(){
         }
         x++;
     }
-    cout<<"Your sorted array:-\n";
+    cout<<"the sorted array:-\n";
     for(int i=0;i<n;i++){
         cout<<arr[i]<<ends;
     }
