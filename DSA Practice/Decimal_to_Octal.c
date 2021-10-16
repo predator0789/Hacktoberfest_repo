@@ -1,8 +1,7 @@
 #include<stdio.h>
-int c=1;
-int bin=0;
+int c=1,bin=0,rem;
+//function to convert number to octal
 int choctal(int num){
-    int rem;
         if(num>0){
            rem=num%8; 
            bin+=rem*c;
@@ -11,10 +10,11 @@ int choctal(int num){
         }
     return bin;
 }
+//main method
 void main(){
-    int n;
+    int n,res;
     printf("Enter a Decimal number:-\n");
-    scanf("%d",&n);
-    int res=choctal(n);
+    scanf("%d\n",&n);
+    res=choctal(n);
     printf("Octal number is:-\n%d",res);
 }
