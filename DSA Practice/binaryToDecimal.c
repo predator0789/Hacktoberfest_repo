@@ -15,5 +15,5 @@ void main(){
     printf("Enter binary input:-\n");
     scanf("%d",&n);
     int res=chdecimal(n);
-    printf("Decimal number is:-\n%d",res);
+    printf("Decimal conversion is:-\n%d",res);
 }
